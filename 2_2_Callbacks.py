@@ -1,3 +1,9 @@
+######################
+# Week 2
+# fashion mnist
+# picture recognition
+# callback
+
 import tensorflow as tf
 
 class myCallback(tf.keras.callbacks.Callback):
