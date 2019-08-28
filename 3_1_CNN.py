@@ -3,6 +3,9 @@
 # Part 6 - Lesson 2
 # Improving Computer Vision Accuracy using Convolutions
 
+# Here’s the notebook that Laurence was using in that screencast. 
+# To make it work quicker, go to the ‘Runtime’ menu, and select ‘Change runtime type’. 
+# Then select GPU as the hardware accelerator!
 # https://colab.research.google.com/drive/1Bw1gUoscJ1BHIYtJIj1HL2-zZVwZorFw
 
 
