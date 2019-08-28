@@ -1,8 +1,13 @@
 ######################
+# Course 1 - Part 4 - Lesson 4
+# Callbacks
 # Week 2
-# fashion mnist
-# picture recognition
-# callback
+# Comupter Vision
+# Fashiion MNIST
+
+# https://github.com/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%204%20-%20Lesson%204%20-%20Notebook.ipynb
+# https://colab.research.google.com/drive/1KohD4KUEcRr5muluMHUbRW7LueHHEWl8
+
 
 import tensorflow as tf
 

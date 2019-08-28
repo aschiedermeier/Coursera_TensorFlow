@@ -64,3 +64,17 @@ model.fit(training_images, training_labels, epochs=5)
 # Evaluate model with test data
 model.evaluate(test_images, test_labels)
 
+###########################################
+# EXPLORATION EXERCISES
+
+# Classifications
+
+# Create a set of classifications for each of the test images, and then print the first entry in the classifications. 
+# The output is a list of 10 numbers, representing the probability for each of the fashion classes.
+# The first value [0] has the highest value at [9] -> representing high boot
+
+classifications = model.predict(test_images)
+print(classifications[0])
+
+# should return 9 for high boot
+print(test_labels[0])
