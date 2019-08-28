@@ -19,9 +19,16 @@ model.compile(optimizer='sgd', loss='mean_squared_error')
 xs = np.array([-1.0,  0.0, 1.0, 2.0, 3.0, 4.0], dtype=float)
 ys = np.array([-3.0, -1.0, 1.0, 3.0, 5.0, 7.0], dtype=float)
 
-# Training the Neural Network
+import time
+# take start time
+tic=time.time()
 
+# Training the Neural Network
 model.fit(xs, ys, epochs=500)
+
+toc=time.time()
+# calculate time lenght
+print ("Time:",(toc - tic)*1000)
 
 # Use the model
 print(model.predict([10.0]))
