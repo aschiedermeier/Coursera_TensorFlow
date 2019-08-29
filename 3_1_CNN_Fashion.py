@@ -1,12 +1,14 @@
 ######################
 # Week 3
-# Part 6 - Lesson 2
+# Course 1 - Part 6 - Lesson 2 
 # Improving Computer Vision Accuracy using Convolutions
+
 
 # Here’s the notebook that Laurence was using in that screencast. 
 # To make it work quicker, go to the ‘Runtime’ menu, and select ‘Change runtime type’. 
 # Then select GPU as the hardware accelerator!
 # https://colab.research.google.com/drive/1Bw1gUoscJ1BHIYtJIj1HL2-zZVwZorFw
+# https://github.com/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%206%20-%20Lesson%202%20-%20Notebook.ipynb
 
 
 import tensorflow as tf
